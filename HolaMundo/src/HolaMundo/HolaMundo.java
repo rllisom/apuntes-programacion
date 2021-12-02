@@ -3,7 +3,6 @@ package HolaMundo;
 public class HolaMundo {
 	
 	public static void main(String[] args) {
-		System.out.println("Hola Mundo");
 		System.out.println("Hello World all the World");
 
 		int[] array = new int[3];
@@ -15,6 +14,14 @@ public class HolaMundo {
 		System.out.println(array[1]);
 		System.out.println(array[2]);
 
+
+
+
+		int[] arr = new int[] {123, 456, 789};
+
+		for(int a: arr) {
+			System.out.println(a);
+		}
 
 
 	}
