@@ -15,7 +15,7 @@ public class HolaMundo {
 		System.out.println(array[1]);
 		System.out.println(array[2]);
 		System.out.println(array[3]);
-//Array que imprime por pantalla los número de la lista array
+//Array que imprime por pantalla los número de la lista
 		for (int x : array) {
 			System.out.println(x);
 		}
